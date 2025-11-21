@@ -1,3 +1,0 @@
-# How to setup Grafana Dashboard
-
-## Step 1: ...
