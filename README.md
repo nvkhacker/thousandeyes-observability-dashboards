@@ -1,16 +1,22 @@
 # ThousandEyes Dashboards
 
-This repository contains  dashboards representing ThousandEyes telemetry data for the different observability backends.
+This repository contains  dashboards representing ThousandEyes telemetry data for different observability backends.
 
 ### Splunk Observability Cloud
 
 [Splunk Observability Cloud Dashboard](splunk/ThousandEyesDashboard.json)
+
+![Splunk Observability Cloud Dashboard](splunk/dashboard.png)
 
 ### Grafana
 
 [Grafana Dashboard](grafana/ThousandEyesDashboard.json)
 
 [Setup Guide](grafana/grafana-setup.md)
+
+![Grafana Dashboard](grafana/dashboard1.png)
+![Grafana Dashboard](grafana/dashboard2.png)
+
 
 ### DataDog
 
@@ -22,10 +28,16 @@ This repository contains  dashboards representing ThousandEyes telemetry data fo
 
 [Dynatrace Dashboard](dynatrace/ThousandEyesDashboard.json)
 
+![Dynatrace Dashboard](dynatrace/dashboard.png)
+
 ### New Relic
 
 [New Relic Dashboard](newRelic/ThousandEyesDashboard.json)
 
+![New Relic Dashboard](newRelic/dashboard.png)
+
 ### Signoz
 
 [Signoz Dashboard](signoz/ThousandEyesDashboard.json)
+
+![Signoz Dashboard](signoz/dashboard.png)
