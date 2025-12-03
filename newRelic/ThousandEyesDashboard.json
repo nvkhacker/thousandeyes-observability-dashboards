@@ -1,10 +1,10 @@
 {
-    "name": "DEVNET-2658 ThousandEyes",
+    "name": "ThousandEyes",
     "description": null,
     "permissions": "PUBLIC_READ_WRITE",
     "pages": [
       {
-        "name": "DEVNET-2658 ThousandEyes",
+        "name": "ThousandEyes",
         "description": null,
         "widgets": [
           {
@@ -45,7 +45,7 @@
               "nrqlQueries": [
                 {
                   "accountIds": [
-                    6227704
+                    "{{AccountId}}"
                   ],
                   "query": "SELECT average(`network.latency`) AS `Avg Latency` FROM Metric FACET thousandeyes.source.agent.name TIMESERIES where thousandeyes.stream.id in ({{StreamId}}) and thousandeyes.test.name in ({{Test}}) AND thousandeyes.source.agent.name in ({{Agent}})"
                 }

@@ -17,7 +17,6 @@ This repository contains  dashboards representing ThousandEyes telemetry data fo
 ![Grafana Dashboard](grafana/dashboard1.png)
 ![Grafana Dashboard](grafana/dashboard2.png)
 
-
 ### DataDog
 
 [DataDog Dashboard](datadog/ThousandEyesDashboard.json)
@@ -33,6 +32,7 @@ This repository contains  dashboards representing ThousandEyes telemetry data fo
 ### New Relic
 
 [New Relic Dashboard](newRelic/ThousandEyesDashboard.json)
+[Setup Guide](newRelic/newrelic-setup.md)
 
 ![New Relic Dashboard](newRelic/dashboard.png)
 
